@@ -10,7 +10,7 @@ plugins {
 
 android {
     namespace = "com.example.reelsbowl"
-    compileSdk = 36 // Simplified syntax
+    compileSdk = 37 // Simplified syntax
 
     defaultConfig {
         applicationId = "com.example.reelsbowl"
