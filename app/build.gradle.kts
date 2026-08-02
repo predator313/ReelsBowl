@@ -93,4 +93,7 @@ dependencies {
     // Testing
     testImplementation(libs.junit)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    //lint
+    lintChecks(libs.compose.lint.checks)
 }

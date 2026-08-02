@@ -1,5 +1,6 @@
 [versions]
 agp = "9.1.1"
+composeLintChecks = "1.5.3"
 junit = "4.13.2"
 kotlin = "2.4.10"
 # KSP must match your Kotlin version (2.2.10) followed by the KSP revision
@@ -56,6 +57,7 @@ androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref =
 androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "room" }
 
 # Others
+compose-lint-checks = { module = "com.slack.lint.compose:compose-lint-checks", version.ref = "composeLintChecks" }
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coil" }
 androidx-paging-runtime-ktx = { module = "androidx.paging:paging-runtime-ktx", version.ref = "paging" }
 androidx-paging-compose = { module = "androidx.paging:paging-compose", version.ref = "paging" }
