@@ -1,4 +1,4 @@
-package com.example.reelsbowl
+package com.nfs.reelsbowl
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.reelsbowl.ui.theme
+package com.nfs.reelsbowl.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

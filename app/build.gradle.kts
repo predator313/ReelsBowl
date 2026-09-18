@@ -9,7 +9,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.reelsbowl"
+    namespace = "com.nfs.reelsbowl"
     compileSdk = 37 // Simplified syntax
 
     defaultConfig {
@@ -96,4 +96,5 @@ dependencies {
 
     //lint
     lintChecks(libs.compose.lint.checks)
+    implementation(libs.androidx.core.splashscreen)
 }
