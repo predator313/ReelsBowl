@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.ReelsBowl" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.ReelsBowl" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/ink_900</item>
+    </style>
+
     <style name="Theme.ReelsBowl.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@color/primary</item>
+        <item name="windowSplashScreenBackground">@color/ink_900</item>
         <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <!-- Without this the app never swaps back to its real theme after the splash. -->
+        <item name="postSplashScreenTheme">@style/Theme.ReelsBowl</item>
     </style>
 </resources>

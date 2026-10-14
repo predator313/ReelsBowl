@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.kotlin.ksp)
     alias(libs.plugins.serialization)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.google.services)
 }
 
 android {
@@ -13,7 +14,7 @@ android {
     compileSdk = 37 // Simplified syntax
 
     defaultConfig {
-        applicationId = "com.example.reelsbowl"
+        applicationId = "com.nfs.reelsbowl"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -73,6 +74,17 @@ dependencies {
     // Paging
     implementation(libs.androidx.paging.runtime.ktx)
     implementation(libs.androidx.paging.compose)
+
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
+
+    // Auth: Credential Manager (Google ID token) + Firebase Auth
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services.auth)
+    implementation(libs.googleid)
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.auth)
+    implementation(libs.kotlinx.coroutines.play.services)
 
     // Networking
     implementation(libs.retrofit)

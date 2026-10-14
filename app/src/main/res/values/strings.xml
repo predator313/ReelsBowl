@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">ReelsBowl</string>
+
+    <!-- Login screen -->
+    <string name="login_status_pill">NEXT-GEN CINEMA FEED</string>
+    <string name="login_brand_prefix">Reel</string>
+    <string name="login_brand_suffix">Bowl</string>
+    <string name="login_pillar_stream">Stream</string>
+    <string name="login_pillar_discover">Discover</string>
+    <string name="login_pillar_connect">Connect</string>
+    <string name="login_tagline">The premier destination for bite-sized cinematic stories, curated premieres, and creator reels.</string>
+    <string name="login_perk_quality">4K HDR Reels</string>
+    <string name="login_perk_no_ads">Zero Ads</string>
+    <string name="login_perk_creator_hub">Creator Hub</string>
+    <string name="login_continue_with_google">Continue with Google</string>
+    <string name="login_explore_as_guest">Explore as Guest</string>
+    <string name="login_sync_note">Sign in to sync your saved reels, liked videos, and customized watchlists across all your devices.</string>
+    <string name="login_legal_prefix">By continuing, you accept our </string>
+    <string name="login_legal_terms">Terms of Service</string>
+    <string name="login_legal_conjunction"> and </string>
+    <string name="login_legal_privacy">Privacy Policy</string>
+    <string name="login_legal_suffix">.</string>
+    <string name="login_footer">REELBOWL V1.0 • ELECTRIC NOCTURNE</string>
+    <string name="login_logo_description">ReelsBowl logo</string>
+
+    <!-- Auth errors -->
+    <string name="auth_error_no_google_account">No Google account found on this device. Add one in Settings and try again.</string>
+    <string name="auth_error_generic">Sign-in failed. Please try again.</string>
+
+    <!-- Home placeholder -->
+    <string name="home_greeting">Welcome, %1$s</string>
+    <string name="home_sign_out">Sign out</string>
+    <string name="default_web_client_id">27122254712-9ca621s29pkb8b8iruf313tgf1a2h0sq.apps.googleusercontent.com</string>
 </resources>
