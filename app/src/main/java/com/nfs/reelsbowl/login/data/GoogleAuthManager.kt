@@ -11,12 +11,12 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import com.nfs.reelsbowl.R
 import dagger.hilt.android.qualifiers.ApplicationContext
-import javax.inject.Inject
-import javax.inject.Singleton
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.tasks.await
+import javax.inject.Inject
+import javax.inject.Singleton
 
 /**
  * Everything about Google sign-in lives here.
@@ -60,7 +60,6 @@ class GoogleAuthManager @Inject constructor(
         val firebaseCredential = GoogleAuthProvider.getCredential(idToken, null)
         firebaseAuth.signInWithCredential(firebaseCredential).await()
     }
-
     suspend fun signOut() {
         firebaseAuth.signOut()
         // Makes Google forget the last picked account, so "switch account" works next time.
