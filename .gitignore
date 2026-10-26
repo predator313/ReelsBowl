@@ -13,6 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+/.claude
 
 # Firebase config (re-download from Firebase Console)
 google-services.json
